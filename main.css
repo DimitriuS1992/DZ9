@@ -1,0 +1,171 @@
+body{
+background-color: azure;
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px 170px 170px 170px;
+    grid-template-rows: 3fr 1fr 1fr 1.5fr 1fr 1fr 1fr 2fr;
+    grid-template-areas: 
+   ". item1 item2 item3"
+   "item4 item5 item6 item7"
+   "item8 item9 item10 item11" 
+   "item12 item13 item14 item15" 
+   "item16 item17 item18 item19" 
+   "item20 item21 item22 item23" 
+   "item24 item25 item26 item27" 
+   "item28 item29 item30 item31";
+   /* grid: [row1-start] ". item1 item2 item3" 3fr [row1-end]
+    grid: [row2-start] "item4 item5 item6 item7" 1fr [row2-end]
+    grid: [row3-start] "item8 item9 item10 item11" 1fr [row3-end]
+    grid: [row4-start] "item12 item13 item14 item15" 1.5fr [row4-end]
+    grid: [row5-start] "item16 item17 item18 item19" 1fr [row5-end]
+    grid: [row6-start] "item20 item21 item22 item23" 1fr [row6-end]
+    grid: [row7-start] "item24 item25 item26 item27" 1fr [row7-end]
+    grid: [row8-start] "item28 item29 item30 item31" 2fr [row8-end]
+    / 50px 70px 70px 70px;*/
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.item1{background-color: white;
+  grid-area: item1;  
+    text-align: center;
+}
+.item1 img{
+    width: 150px;
+    height: 150px;
+  
+}
+.item2{ text-align: center;
+    background-color: blue;
+    color: white;
+    grid-area: item2;
+  
+}
+.item2 img{
+    width: 150px;
+    height: 150px;
+  
+}
+.item3{background-color: white;
+     grid-area: item3;  text-align: center;
+}
+.item3 img{
+    width: 150px;
+    height: 150px;
+  
+}
+.item4{ text-align: center;
+     grid-area: item4; 
+    border-top: 1px solid grey;
+}
+.item5{background-color: white;
+     grid-area: item5; 
+    border-top: 1px solid grey; text-align: center;
+}
+.item6{background-color: blue; text-align: center;
+    color: white;
+     grid-area: item6; 
+    border-top: 1px solid grey;
+}
+.item7{border-top: 1px solid grey;
+    grid-area: item7;background-color: white; text-align: center;
+    
+}
+.item8{border-top: 1px solid grey; text-align: center;
+    grid-area: item8;
+}
+.item9{border-top: 1px solid grey; text-align: center;
+    grid-area: item9;background-color: white;
+}
+.item10{border-top: 1px solid grey; text-align: center;
+    grid-area: item10;background-color: blue;
+    color: white;
+}
+.item11{border-top: 1px solid grey; text-align: center;
+    grid-area: item11;background-color: white;
+}
+.item12{border-top: 1px solid grey; text-align: center;
+grid-area: item12;
+    
+}
+.item13{border-top: 1px solid grey; text-align: center;
+    grid-area: item13;background-color: white;
+}
+.item14{border-top: 1px solid grey; text-align: center;
+    grid-area: item14;background-color: blue;
+    color: white;
+}
+.item15{border-top: 1px solid grey; text-align: center;
+   grid-area: item15;background-color: white; 
+}
+
+.item16{border-top: 1px solid grey; text-align: center;
+    grid-area: item16;
+}
+.item17{border-top: 1px solid grey; text-align: center;
+    grid-area: item17;background-color: white;
+}
+.item18{border-top: 1px solid grey; text-align: center;
+    grid-area: item18;background-color: blue;
+    color: white;
+}
+.item19{border-top: 1px solid grey; text-align: center;
+    grid-area: item19;background-color: white;
+}
+.item20{border-top: 1px solid grey; text-align: center;
+    grid-area: item20;
+}
+.item21{border-top: 1px solid grey; text-align: center;
+    grid-area: item21;background-color: white;
+}
+
+.item22{border-top: 1px solid grey; text-align: center;
+    grid-area: item22;background-color: blue;
+    color: white;
+}
+.item23{border-top: 1px solid grey; text-align: center;
+    grid-area: item23;background-color: white;
+}
+.item24{border-top: 1px solid grey; text-align: center;
+    grid-area: item24;
+}
+.item25{border-top: 1px solid grey; text-align: center;
+    grid-area: item25;background-color: white;
+    
+}
+.item25 img{margin-top: 15%;
+    width: 15px;
+    height: 15px;
+}
+.item26{border-top: 1px solid grey; text-align: center;
+    grid-area: item26;background-color: blue;
+    color: white;
+}
+.item26 img{margin-top: 15%;
+    width: 15px;
+    height: 15px;
+}
+.item27{border-top: 1px solid grey; text-align: center;
+    grid-area: item27;background-color: white;
+}
+.item27 img{
+    margin-top: 15%;
+    width: 15px;
+    height: 15px;
+}
+.item28{border-top: 1px solid grey; text-align: center;
+    grid-area: item28;
+}
+.item29{border-top: 1px solid grey; text-align: center;
+    grid-area: item29;background-color: white;font-size: 150%;
+}
+.item30{border-top: 1px solid grey; text-align: center;
+    grid-area: item30;background-color: blue;
+    color: white;
+    padding-bottom: 10px;font-size: 150%;
+}
+.item31{border-top: 1px solid grey;font-size: 150%;
+    grid-area: item31;background-color: white; text-align: center;
+}
+
