@@ -274,7 +274,7 @@ p {
 		border: none;
 	}
 }
-@media (max-width: 468px) {
+@media (max-width: 600px) {
 	.grid {
 		width: 100%;
 	}
